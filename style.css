@@ -1,11 +1,11 @@
-:root {  
-    --cream: #f2eee5;
-    --paper: #e8e1d4;
-    --black: #171717;            
-    --red: #8f3028;
-    --orange: #b87935;
-    --gray: #6e6a63;
-    --white: #faf8f3; }
+:root {
+    --cream: #FBF8F1;
+    --paper: #F0E6F3;
+    --black: #302837;
+    --red: #8D659F;
+    --orange: #D9BD62;
+    --gray: #6E6570;
+    --white: #FFFCF6
 * {  
 
 		margin: 0;  
