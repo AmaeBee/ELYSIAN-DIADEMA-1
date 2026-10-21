@@ -1,488 +1,396 @@
-<!DOCTYPE html> 
-<html lang="fr"> 
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
-    <meta name="description" content="Elysian Diadema">
-    
-    <title>ELYSIAN DIADEMA</title> 
+    <title>Elysian Diadema | Your Hair, Your Crown</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-    <body> 
 
-<header class="navbar">
-    <a href="#accueil" class="logo">
-        ELYSIAN DIADEMA<span>.</span>
-    </a>
+<body>
 
-    <nav>
-        <a href="#apropos">Notre histoire</a>
-        <a href="#produits">Nos produits</a>
-        <a href="#engagement">Notre engagement</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
-       
-<main> 
-        <section class="hero" id="accueil"> 
-        <div class="hero-content">
-            <img
-				src="images/elysian.jpg"
-                >
+    <!-- ANNOUNCEMENT BAR -->
+    <div class="announcement-bar">
+        <p>Celebrate your natural beauty with Elysian Diadema.</p>
+    </div>
 
-            <h1>
-                
-                <em>Nos cheveux</em>  <em> Notre diadème</em>
-                
-            </h1>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container nav-container">
 
-            <a href="#nos produits" class="button">
-                Decouvrez nos produits
-                <span>↓</span>
+            <a href="#home" class="logo">
+                Elysian <span>Diadema</span>
             </a>
 
-        </div>
-        <div class="hero-image">
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+                ☰
+            </button>
 
-            <img
-                src="images/Produit 1.jpeg"
-                alt="Crème capillaire"
-            >
-            <div class="hero-caption">
-                <span>01</span>
-                <span>Étude abstraite · 2026</span>
+            <nav class="navigation" id="navigation">
+                <a href="#home">Home</a>
+                <a href="#about">Our Story</a>
+                <a href="#collections">Collections</a>
+                <a href="#ritual">Hair Ritual</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#collections" class="nav-button">Explore</a>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="container hero-container">
+
+                <div class="hero-content">
+                    <p class="eyebrow">YOUR NATURAL BEAUTY, REDEFINED</p>
+
+                    <h1>
+                        Your hair.<br>
+                        Your crown.<br>
+                        <span>Your story.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Discover a world where natural hair is celebrated,
+                        individuality is embraced, and every curl tells a story.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#collections" class="button button-primary">
+                            Discover our collection
+                        </a>
+
+                        <a href="#about" class="button button-secondary">
+                            Our story
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=1000&q=85"
+                        alt="Portrait celebrating natural beauty">
+                    <div class="image-caption">
+                        <p>Beauty in every texture.</p>
+                    </div>
+                </div>
+
             </div>
+        </section>
 
-        </div>
+        <!-- BRAND VALUES -->
+        <section class="values-section">
+            <div class="container values-grid">
 
-    </section>
-    
-   </main>
-        <section class="about" id="apropos">
+                <div class="value-item">
+                    <span class="value-number">01</span>
+                    <h3>Natural Beauty</h3>
+                    <p>Celebrate your hair in its authentic form.</p>
+                </div>
 
-        <div class="section-number">
-            01 . À propos
-        </div>
+                <div class="value-item">
+                    <span class="value-number">02</span>
+                    <h3>Self-Expression</h3>
+                    <p>Make your hair part of your personal story.</p>
+                </div>
 
-        <div class="about-content">
-
-            <div class="about-image">
-
-                <img
-                    src="images/portrait.jpeg"
-                    alt="Portrait de l'artiste"
-                >
+                <div class="value-item">
+                    <span class="value-number">03</span>
+                    <h3>Thoughtful Care</h3>
+                    <p>Build rituals that make caring for your hair meaningful.</p>
+                </div>
 
             </div>
+        </section>
 
+        <!-- ABOUT SECTION -->
+        <section class="about-section section-padding" id="about">
+            <div class="container about-container">
 
-            <div class="about-text">
+                <div class="about-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=85"
+                        alt="Portrait representing confidence and individuality">
+                </div>
+
+                <div class="about-content">
+                    <p class="eyebrow">THE STORY BEHIND THE BRAND</p>
+
+                    <h2>
+                        More than hair.<br>
+                        A statement of <span>identity.</span>
+                    </h2>
+
+                    <p>
+                        Elysian Diadema is built around a simple belief:
+                        natural hair deserves to be celebrated, understood,
+                        and cared for.
+                    </p>
+
+                    <p>
+                        Our vision is to create hair products and accessories
+                        that encourage self-expression and help people embrace
+                        the beauty of their natural hair.
+                    </p>
+
+                    <a href="#contact" class="text-link">
+                        Discover our philosophy →
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- COLLECTIONS SECTION -->
+        <section class="collections-section section-padding" id="collections">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">MADE FOR YOUR HAIR JOURNEY</p>
+                    <h2>Explore our <span>collections</span></h2>
+                    <p>
+                        Thoughtful essentials for expressing and caring
+                        for your natural hair.
+                    </p>
+                </div>
+
+                <div class="products-grid">
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=800&q=85"
+                                alt="Hair care product inspiration">
+                        </div>
+
+                        <div class="product-info">
+                            <p class="product-category">CARE</p>
+                            <h3>Hair Care Essentials</h3>
+                            <p>
+                                Discover the foundations of a thoughtful
+                                natural hair care routine.
+                            </p>
+                            <a href="#contact" class="text-link">
+                                Discover more →
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=800&q=85"
+                                alt="Fashion accessories inspiration">
+                        </div>
+
+                        <div class="product-info">
+                            <p class="product-category">ACCESSORIES</p>
+                            <h3>Hair Accessories</h3>
+                            <p>
+                                Add a distinctive touch to your hairstyle
+                                with accessories that express your style.
+                            </p>
+                            <a href="#contact" class="text-link">
+                                Discover more →
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=85"
+                                alt="Personal style inspiration">
+                        </div>
+
+                        <div class="product-info">
+                            <p class="product-category">SELF-EXPRESSION</p>
+                            <h3>Your Signature Style</h3>
+                            <p>
+                                Find inspiration to express your personality
+                                through your natural hair.
+                            </p>
+                            <a href="#contact" class="text-link">
+                                Find inspiration →
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- BRAND MANIFESTO -->
+        <section class="manifesto-section">
+            <div class="container manifesto-content">
+                <p class="eyebrow">OUR PHILOSOPHY</p>
 
                 <h2>
-                    Observer.
-                    <br>
-                    Expérimenter.
-                    <br>
-                    <em>Créer.</em>
+                    Your crown was never meant to look like anyone else's.
                 </h2>
 
                 <p>
-                    Mon travail artistique part d'une envie simple :
-                    observer le monde qui m'entoure et chercher de
-                    nouvelles façons de le représenter.
+                    Embrace your texture. Honour your identity.
+                    Wear your crown with confidence.
                 </p>
 
-                <p>
-                    À travers mes études, j'expérimente différentes
-                    techniques et différents supports. La peinture,
-                    le dessin, la photographie et les techniques mixtes
-                    occupent une place importante dans mes recherches.
-                </p>
+                <a href="#contact" class="button button-light">
+                    Join our journey
+                </a>
+            </div>
+        </section>
 
-                <p>
-                    Je m'intéresse particulièrement aux relations
-                    entre le corps, l'espace, la mémoire et les émotions.
-                </p>
+        <!-- HAIR RITUAL SECTION -->
+        <section class="ritual-section section-padding" id="ritual">
+            <div class="container ritual-container">
+
+                <div class="ritual-content">
+                    <p class="eyebrow">A MOMENT FOR YOURSELF</p>
+
+                    <h2>
+                        Make hair care<br>
+                        a <span>ritual.</span>
+                    </h2>
+
+                    <p>
+                        Caring for your hair can be more than a routine.
+                        It can be a moment to slow down, reconnect with
+                        yourself, and appreciate your natural beauty.
+                    </p>
+
+                    <ul class="ritual-list">
+                        <li>Understand your hair's needs.</li>
+                        <li>Choose products thoughtfully.</li>
+                        <li>Give your hair time and attention.</li>
+                        <li>Celebrate your progress.</li>
+                    </ul>
+
+                    <a href="#contact" class="button button-primary">
+                        Learn more
+                    </a>
+                </div>
+
+                <div class="ritual-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1512316609839-ce289d3eba0a?auto=format&fit=crop&w=900&q=85"
+                        alt="Beauty and self-care inspiration">
+                </div>
 
             </div>
+        </section>
 
-        </div>
+        <!-- CONTACT SECTION -->
+        <section class="contact-section section-padding" id="contact">
+            <div class="container contact-container">
 
-    </section>
-        <section class="gallery" id="travaux">
+                <div class="contact-content">
+                    <p class="eyebrow">LET'S CONNECT</p>
 
-	<div class="section-header">
+                    <h2>
+                        Be part of the<br>
+                        <span>Elysian Diadema</span> journey.
+                    </h2>
 
-            <div class="section-number">
-                02 . Travaux
+                    <p>
+                        Follow our journey as we explore natural hair,
+                        thoughtful accessories, and the beauty of
+                        self-expression.
+                    </p>
+
+                    <!-- Replace this placeholder with your Instagram URL -->
+                    <a
+                        href="https://www.instagram.com/"
+                        class="button button-primary"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Follow us on Instagram
+                    </a>
+                </div>
+
+                <div class="contact-note">
+                    <p class="contact-note-label">ELYSIAN DIADEMA</p>
+                    <p class="contact-note-text">
+                        Natural hair.<br>
+                        Individuality.<br>
+                        Confidence.
+                    </p>
+                </div>
+
             </div>
+        </section>
 
-            <h2>
-                Quelques explorations
-                <br>
-                <em>artistiques.</em>
-            </h2>
+    </main>
 
-        </div>
-   </section>
-	<div class="gallery-grid">
-           
-            <article class="artwork artwork-large">
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
 
-                <div class="image-container">
-
-                    <img src="images/oeuvre-1.jpeg"
-                        alt="Œuvre Fragmentation"
-                    >
-
-                    <span class="artwork-number">
-                        01
-                    </span>
-
-                </div>
-
-                <div class="artwork-info">
-
-                    <div>
-                        <h3>Fragmentation</h3>
-                        <p>Peinture abstraite</p>
-                    </div>
-
-                    <span>2026</span>
-
-                </div>
-
-            </article>
-     </div>	<article class="artwork artwork-small">
-
-                <div class="image-container">
-
-                    <img
-                        src="images/oeuvre-2.jpeg"
-                        alt="Œuvre Silence"
-                    >
-
-                    <span class="artwork-number">
-                        02
-                    </span>
-
-                </div>
-
-                <div class="artwork-info">
-
-                    <div>
-                        <h3>Silence</h3>
-                        <p>Dessin</p>
-                    </div>
-
-                    <span>2026</span>
-
-                </div>
-
-            </article>
-		<article class="artwork artwork-small">
-
-                <div class="image-container">
-
-                    <img
-                        src="images/oeuvre-3.jpeg"
-                        alt="Œuvre Matière"
-                    >
-
-                    <span class="artwork-number">
-                        03
-                    </span>
-
-                </div>
-
-                <div class="artwork-info">
-
-                    <div>
-                        <h3>Matière</h3>
-                        <p>Technique mixte</p>
-                    </div>
-
-                    <span>2025</span>
-
-                </div>
-
-            </article>
-		<article class="artwork artwork-wide">
- <div class="image-container">
-
-                    <img
-                        src="images/oeuvre-4.jpeg"
-                        alt="Œuvre Corps et espace"
-                    >
-
-                    <span class="artwork-number">
-                        04
-                    </span>
-
-                </div>
-
-                <div class="artwork-info">
-
-                    <div>
-                        <h3>Corps & espace</h3>
-                        <p>Photographie</p>
-                    </div>
-
-                    <span>2025</span>
-
-                </div>
-
-            </article>
-		
-		<article class="artwork artwork-small">
-<div class="image-container">
-
-                    <img
-                        src="images/oeuvre-5.jpeg"
-                        alt="Œuvre Mémoire"
-                    >
-
-                    <span class="artwork-number">
-                        05
-                    </span>
-
-                </div>
-
-                <div class="artwork-info">
-
-                    <div>
-                        <h3>Mémoire</h3>
-                        <p>Peinture</p>
-                    </div>
-
-                    <span>2025</span>
-
-                </div>
-
-            </article>
-		<article class="artwork artwork-large">
-<div class="image-container">
-
-                    <img
-                        src="images/oeuvre-6.jpeg"
-                        alt="Œuvre Émergence"
-                    >
-
-                    <span class="artwork-number">
-                        06
-                    </span>
-
-                </div>
-
-                <div class="artwork-info">
-
-                    <div>
-                        <h3>Émergence</h3>
-                        <p>Illustration</p>
-                    </div>
-
-                    <span>2024</span>
-
-                </div>
-
-            </article>
-
-        </div>
-		<section class="studio">
-<div class="studio-image">
-
-            <img
-                src="images/atelier.jpeg"
-                alt="Atelier de création artistique"
-            >
-
-        </div>
-
-        <div class="studio-text">
-
-            <span class="section-number">
-                03 . Le processus
-            </span>
-
-            <h2>
-                L'œuvre commence
-                <em>bien avant</em>
-                le résultat.
-            </h2>
+            <a href="#home" class="logo footer-logo">
+                Elysian <span>Diadema</span>
+            </a>
 
             <p>
-                Croquis, recherches, essais, erreurs et expérimentations
-                font partie intégrante de ma pratique.
+                Celebrating natural hair and individual beauty.
             </p>
 
-            <p>
-                Mon atelier est un espace de recherche où les idées
-                peuvent évoluer librement.
+            <div class="footer-links">
+                <a href="#about">Our Story</a>
+                <a href="#collections">Collections</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <p class="copyright">
+                © <span id="current-year"></span> Elysian Diadema.
+                All rights reserved.
             </p>
 
         </div>
+    </footer>
 
-    </section>
-		<section class="education" id="parcours">
-<div class="section-number">
-            04 . Parcours
-        </div>
+    <!-- JAVASCRIPT -->
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const navigation = document.getElementById("navigation");
 
-        <h2>
-            Formation & expériences
-        </h2>
+        menuToggle.addEventListener("click", function () {
+            navigation.classList.toggle("active");
 
+            const isExpanded = navigation.classList.contains("active");
 
-        <div class="timeline">
+            menuToggle.setAttribute("aria-expanded", isExpanded);
+            menuToggle.setAttribute(
+                "aria-label",
+                isExpanded ? "Close navigation menu" : "Open navigation menu"
+            );
+        });
 
-            <div class="timeline-item">
+        const navigationLinks = navigation.querySelectorAll("a");
 
-                <span>2024 — Aujourd'hui</span>
+        navigationLinks.forEach(function (link) {
+            link.addEventListener("click", function () {
+                navigation.classList.remove("active");
+                menuToggle.setAttribute("aria-expanded", "false");
+                menuToggle.setAttribute("aria-label", "Open navigation menu");
+            });
+        });
 
-                <div>
-                    <h3>
-                        Formation en Arts
-                    </h3>
+        document.getElementById("current-year").textContent =
+            new Date().getFullYear();
+    </script>
 
-                    <p>
-                        Nom de l'établissement
-                    </p>
-
-                    <small>
-                        Peinture · Dessin · Histoire de l'art ·
-                        Techniques contemporaines
-                    </small>
-                </div>
-
-            </div>
-
-
-            <div class="timeline-item">
-
-                <span>2025</span>
-
-                <div>
-                    <h3>
-                        Projet artistique
-                    </h3>
-
-                    <p>
-                        Projet personnel
-                    </p>
-
-                    <small>
-                        Recherche autour de la mémoire et de l'identité.
-                    </small>
-                </div>
-
-            </div>
-
-
-            <div class="timeline-item">
-
-                <span>2024</span>
-
-                <div>
-                    <h3>
-                        Première exposition
-                    </h3>
-
-                    <p>
-                        Exposition collective
-                    </p>
-
-                    <small>
-                        Présentation de travaux réalisés pendant
-                        la formation.
-                    </small>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-		<section class="statement">
-<div class="statement-content">
-
-            <span>
-                ARTIST STATEMENT
-            </span>
-
-            <blockquote>
-                « Je cherche à créer des images qui ne donnent pas
-                toutes les réponses, mais qui donnent envie de regarder
-                une seconde fois. »
-            </blockquote>
-
-            <p>
-                 Alex
-            </p>
-
-        </div>
-
-    </section>
-		<section class="contact" id="contact">
-<div class="section-number">
-            05 . Contact
-        </div>
-
-        <div class="contact-content">
-
-            <div>
-
-                <h2>
-                    Une idée ?
-                    <br>
-                    <em>Parlons-en.</em>
-                </h2>
-
-            </div>
-
-
-            <div class="contact-details">
-
-                <p>
-                    Pour une collaboration, une exposition,
-                    un projet artistique ou simplement pour échanger.
-                </p>
-
-                <a href="mailto:email@example.com">
-                    email@example.com
-                </a>
-
-                <a href="<https://instagram.com/>" target="_blank">
-                    Instagram ↗
-                </a>
-
-                <a href="<https://www.behance.net/>" target="_blank">
-                    Behance ↗
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
-		<footer>
-  <span>
-        © 2026 Alex
-    </span>
-
-    <span>
-        Portfolio artistique
-    </span>
-
-    <a href="#accueil">
-        Retour en haut ↑
-    </a>
-
-</footer>
-    
 </body>
-
 </html>
